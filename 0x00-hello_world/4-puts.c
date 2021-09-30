@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * MAIN: main est la fonction exécutée lors du lancement du programme
+ * main - Entry point
  *
- * DESCRIPTION: Programming is like building a multilingual puzzle
+ * Description: prints "Programming is like building a multilingual puzzle"
  *
- * RETURN: return met fin à l’exécution d’une fonction
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
