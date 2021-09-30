@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * MAIN: La fonction main est la première fonction exécutée lors du lancement du programme
+ * MAIN: main est la première fonction exécutée lors du lancement du programme
  *
  * DESCRIPTION: Programming is like building a multilingual puzzle
  *
