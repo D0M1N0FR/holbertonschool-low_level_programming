@@ -1,10 +1,10 @@
 #include <stdio.h>
-
-/* 
- * DESCRIPTION:
+/**
+ * main - print the size of various types
  *
- * Write a C program that prints the size of various types on the computer it is compiled and run on
+ * Description: prints the size of various types on the computer it is compiled and run on
  *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
