@@ -13,8 +13,8 @@ int main(void)
 
 	for (i = 0; i < 100; i++)
 	{
-		c = j / 10;
-		d = j % 10;
+		a = j / 10;
+		b = j % 10;
 
 		for (j = 0; j < 100; j++)
 		{
