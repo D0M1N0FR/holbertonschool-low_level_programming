@@ -8,7 +8,7 @@
  * Return: void
  */
 
-void times_table(void)
+void times_table()
 {
 	int row, column, product, tens, ones;
 
