@@ -38,3 +38,9 @@ void jack_bauer(void)
 		x++;
 	}
 }
+
+int main(void)
+{
+    jack_bauer();
+    return (0);
+}
