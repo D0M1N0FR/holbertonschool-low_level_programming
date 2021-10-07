@@ -5,6 +5,7 @@
  * @n: number of times underscore is printed
  * Description: Can only use _putchar to print
  */
+
 void print_line(int n)
 {
 	int c;
