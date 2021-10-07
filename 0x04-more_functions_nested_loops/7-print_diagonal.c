@@ -21,10 +21,20 @@ void print_diagonal(int n)
 				_putchar(' ');
 			}
 			_putchar('\\');
+			_putchar('$');
 			_putchar('\n');
 			line++;
 		}
 	}
 	else
 		_putchar('\n');
+}
+
+int main(void)
+{
+	print_diagonal(0);
+	print_diagonal(2);
+	print_diagonal(10);
+	print_diagonal(-4);
+	return (0);
 }
