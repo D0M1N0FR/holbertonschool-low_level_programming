@@ -2,7 +2,9 @@
 
 int main(void)
 {
-	positive_or_negative(0);
+	int c = 0;
+
+	positive_or_negative(c);
 
 	return (0);
 }
