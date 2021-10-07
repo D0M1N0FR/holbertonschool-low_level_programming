@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * print_line - prints a line of _ n long
- * @n: length of line
- *
- * Return: void
+ * print_line - draw a straight line
+ * @n: number of times underscore is printed
+ * Description: Can only use _putchar to print
  */
 
 void print_line(int n)
 {
-	int a = 0;
+	int c;
 
-	while (a < n)
+	c = 0;
+
+	while (c < n)
 	{
 		_putchar('_');
-		a++;
+		c++;
 	}
-
 	_putchar('\n');
 }
