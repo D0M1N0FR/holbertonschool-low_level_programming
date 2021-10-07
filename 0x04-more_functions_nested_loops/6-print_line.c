@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * print_line - prints a line of _ n long
@@ -19,4 +19,3 @@ void print_line(int n)
 
 	_putchar('\n');
 }
-
