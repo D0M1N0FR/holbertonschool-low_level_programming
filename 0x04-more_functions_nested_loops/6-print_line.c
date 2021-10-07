@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main"
 
 /**
  * print_line - prints a line of _ n long
@@ -9,12 +9,14 @@
 
 void print_line(int n)
 {
-	int line = 0;
+	int a = 0;
 
-	while (line < n)
+	while (a < n)
 	{
 		_putchar('_');
-		line++;
+		a++;
 	}
+
 	_putchar('\n');
 }
+
