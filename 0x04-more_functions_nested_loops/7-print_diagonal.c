@@ -16,18 +16,22 @@ void print_diagonal(int n)
 	{
 		while (line < n)
 		{
+			_putchar('\n');
 			for (spaces = 0; spaces < line; spaces++)
 			{
 				_putchar(' ');
 			}
 			_putchar('\\');
 			_putchar('$');
-			_putchar('\n');
 			line++;
 		}
 	}
 	else
+	{
 		_putchar('\n');
+		_putchar('$');
+		_putchar('\n');
+	}
 }
 
 int main(void)
