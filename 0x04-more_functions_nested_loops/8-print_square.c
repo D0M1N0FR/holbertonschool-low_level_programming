@@ -9,28 +9,19 @@
 
 void print_square(int size)
 {
-	int row;
-	int column;
+	int x, y;
 
-	if (size > 0)
-	{
-		for (row = 0; row < size; row++)
-		{
-			for (column = 0; column < size; column++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
-		}
-	}
-	else
+	y = 0;
+
+	if (size < 1)
 		_putchar('\n');
-}
 
-int main(void)
-{
-	print_square(2);
-	print_square(10);
-	print_square(0);
-	return (0);
+	while (y < size)
+	{
+		x = 0;
+		while (x < size)
+		{																_putchar('#');														x++;
+		}
+		_putchar('\n');														y++;
+	}
 }
