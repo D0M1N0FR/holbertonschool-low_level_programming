@@ -1,43 +1,34 @@
 #include "main.h"
 
 /**
- * print_triangle - prints a triangle
- * @size: length of sides minus hypotenuse
- *
- * Return: void
+ * print_triangle - print a triangle aligned right, using '#'
+ * @size: Size of triangle
  */
 
 void print_triangle(int size)
 {
-	int line = 0;
-	int spaces;
-	int hashes;
+	int c, i, j;
 
-	if (size > 0)
+	c = 0;
+	i = size - 1;
+
+	while (c < size)
 	{
-		while (line < size)
+		i = size - 1 - c;
+		j = c + 1;
+		while (i > 0)
 		{
-			for (spaces = size - 1; spaces > line; spaces--)
-			{
-				_putchar(' ');
-			}
-			for (hashes = 0; hashes < line + 1; hashes++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
-			line++;
+			_putchar(' ');
+			i--;
 		}
-	}
-	else
+		while (j > 0)
+		{
+			_putchar('#');
+			j--;
+		}
 		_putchar('\n');
-}
-
-int main(void)
-{
-	print_triangle(2);
-	print_triangle(10);
-	print_triangle(1);
-	print_triangle(0);
-	return (0);
+		c++;
+	}
+	if (size <= 0)
+		_putchar('\n');
 }
